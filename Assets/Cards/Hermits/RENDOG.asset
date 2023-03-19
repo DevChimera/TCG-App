@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed5fc5367459314cb265bd127e1f07c, type: 3}
+  m_Name: RENDOG
+  m_EditorClassIdentifier: 
+  Name: rendog
+  MaxHealth: 260
+  Health: 260
+  Description: 
+  PrimaryAttackName: Professional
+  SecondaryAttackName: outrageous
+  PrimaryAttackDamage: 50
+  SecondaryAttackDamage: 100
+  PrimaryAttackCost: 01000000
+  SecondaryAttackCost: 010000000100000001000000
+  Strengths: 0b000000
+  Weaknesses: 0b000000
+  HermitType: 1
+  Rarity: 0
+  index: 16
+  PrimaryColor: {r: 1, g: 0, b: 0, a: 1}
+  SecondaryColor: {r: 1, g: 0, b: 0, a: 1}

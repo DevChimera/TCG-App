@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30cec984ff06d149b4c3fbffac7b945, type: 3}
+  m_Name: Utils
+  m_EditorClassIdentifier: 
+  Hermits:
+  - {fileID: 21300000, guid: cc6e2bd9d5396204981e0df901996f54, type: 3}
+  - {fileID: 21300000, guid: bbf867b30d7b52c4da4ba4e84e178de8, type: 3}
+  - {fileID: 21300000, guid: 831969e3332bc36438999f3447b4a918, type: 3}
+  - {fileID: 21300000, guid: 736b3eca04dfa4340afd691842f42841, type: 3}
+  - {fileID: 21300000, guid: 71eff8f15e4164347bd24185ce1fdfa2, type: 3}
+  - {fileID: 21300000, guid: 430c10ee2a7367641b738761911c9b67, type: 3}
+  - {fileID: 21300000, guid: a05bdd4e276acf245a323092bdfe7dcd, type: 3}
+  - {fileID: 21300000, guid: 8bca2e605fa894949b1827ed83f6deca, type: 3}
+  - {fileID: 21300000, guid: 5daafb9e1613215468435f00dbe4fc4d, type: 3}
+  - {fileID: 21300000, guid: 936d835dde67d2f4a915b3df62bfdfaa, type: 3}
+  - {fileID: 21300000, guid: aa1b48f8b37afa844abcb6a8df339a1d, type: 3}
+  - {fileID: 21300000, guid: 36962535f8c263048b600d9142a7df8e, type: 3}
+  - {fileID: 21300000, guid: 5ee52d71e423f5d48b118b950a74b77d, type: 3}
+  - {fileID: 21300000, guid: 17f4399429ada6f45842ec56334bab24, type: 3}
+  - {fileID: 21300000, guid: 93d1c607560a56a46974e3a14efb1cd6, type: 3}
+  - {fileID: 21300000, guid: 0df9e6b9f79389340bca4cbf48c384b2, type: 3}
+  - {fileID: 21300000, guid: 2bb9c9ed51ee6474794132397b8f139c, type: 3}
+  - {fileID: 21300000, guid: 5242270f117f5a741b83f0dbbd61bd5f, type: 3}
+  - {fileID: 21300000, guid: 1c23301c8045179419ec88bb8dc9feba, type: 3}
+  - {fileID: 21300000, guid: c04aa839a6633ec4f8b06ec7011b4820, type: 3}
+  - {fileID: 21300000, guid: 61c703a45d2cf0348961a038d59143f5, type: 3}
+  - {fileID: 21300000, guid: 97a27f3bed3666343bc6bcd74bbcf8c0, type: 3}
+  - {fileID: 21300000, guid: 9bdeadc27a2c2d242aedffd33c8d1695, type: 3}
+  - {fileID: 21300000, guid: b6d0d835ab017cb4aac09172ddf9f3bb, type: 3}
+  - {fileID: 21300000, guid: bef3d9b8b8a84654d8dec65a9112a699, type: 3}
+  - {fileID: 21300000, guid: 21224ee16f4262b4c811d782b967bbc6, type: 3}
+  HermitsBG:
+  - {fileID: 21300000, guid: c2f39f8994d48ea44b0aba6972dd9a89, type: 3}
+  - {fileID: 21300000, guid: 606b8876b0b7ffe40b54cec54d1c3d2a, type: 3}
+  - {fileID: 21300000, guid: 22b3798f5701a704a86c8ecf99c555ea, type: 3}
+  - {fileID: 21300000, guid: 3209e92254c386a4b838c842f0cad3cf, type: 3}
+  - {fileID: 21300000, guid: a30745f612a9d3141a8975a9bbcf1ce3, type: 3}
+  - {fileID: 21300000, guid: 1e8f7c9b442cce44592a4cd28adfed3b, type: 3}
+  - {fileID: 21300000, guid: 9de58979e429ba34fae9514a36f0c292, type: 3}
+  - {fileID: 21300000, guid: 9188fec65aece8f479cd1f67cb009eef, type: 3}
+  - {fileID: 21300000, guid: d6f432382ed389e45b798bbef7e0b434, type: 3}
+  - {fileID: 21300000, guid: 020c370f8f0b71640bee1a8274de7515, type: 3}
+  - {fileID: 21300000, guid: d3b73334c39dfc34b89cfe1a252d19e5, type: 3}
+  - {fileID: 21300000, guid: 8c13ffbdc35359f49be14bc9273a1dd4, type: 3}
+  - {fileID: 21300000, guid: 5bc8bc66f3ac2dc458f7f4c38736f6b6, type: 3}
+  - {fileID: 21300000, guid: ea158ec594965204dbac9c737a1d3f1f, type: 3}
+  - {fileID: 21300000, guid: 873a62cd9965e544c85a01a24cf0b2ae, type: 3}
+  - {fileID: 21300000, guid: ba5ff1abb979dc44c8e903b640dd23cc, type: 3}
+  - {fileID: 21300000, guid: 985d32d2bdb33e24a81937723d02bada, type: 3}
+  - {fileID: 21300000, guid: d7bcb46a350f589419a0844ef2761684, type: 3}
+  - {fileID: 21300000, guid: cd380cdab7d562f4b9b28833a6685a89, type: 3}
+  - {fileID: 21300000, guid: 8955f08a5be683b4da49ff497735d531, type: 3}
+  - {fileID: 21300000, guid: b482ab675073326498302cb2bdcb71f7, type: 3}
+  - {fileID: 21300000, guid: 7944ea768366ea24881dbda22a731cee, type: 3}
+  - {fileID: 21300000, guid: c12f92bcfeb06e3459a00197693f9d8d, type: 3}
+  - {fileID: 21300000, guid: cd0ff7f7ccd7dca40a947d396b975e2a, type: 3}
+  - {fileID: 21300000, guid: f852d4245b7482548a6166996029a549, type: 3}
+  - {fileID: 21300000, guid: 1a0b6a4b93b959847aa66b1494ea373f, type: 3}
+  TypesIcon:
+  - {fileID: 21300000, guid: a4d28728b563bfd4e9ba01411f5d5809, type: 3}
+  - {fileID: 21300000, guid: 7c86e6048852e8a4f9ebea2ae9bf2ea5, type: 3}
+  - {fileID: 21300000, guid: bd39293b30ae2b84eac2b886db65dd20, type: 3}
+  - {fileID: 21300000, guid: da9b5eae5eff72e4c81862d6879f7fa7, type: 3}
+  - {fileID: 21300000, guid: 01935e5ea55e6bf4a85d3b7f71a80356, type: 3}
+  - {fileID: 21300000, guid: 145fc7b5a48e4f54591cd4f14eef97e0, type: 3}
+  - {fileID: 21300000, guid: b0320cea59ed50c46be47fd563049f8f, type: 3}
+  - {fileID: 21300000, guid: 5f147e6e16648a243b92d83ccc89c446, type: 3}
+  - {fileID: 21300000, guid: d229371363a1360459f04f11e549e571, type: 3}
+  - {fileID: 21300000, guid: 2955f01645bed8a4da159965a38be647, type: 3}
+  - {fileID: 21300000, guid: bffca4ebeeda8d94e83ec6c05b38b181, type: 3}
+  Effects: []
+  HermitsEmoji: []
+  TypesBGColors:
+  - serializedVersion: 2
+    rgba: 4288324280
+  - serializedVersion: 2
+    rgba: 4281498725
+  - serializedVersion: 2
+    rgba: 4290677351
+  - serializedVersion: 2
+    rgba: 4290955861
+  - serializedVersion: 2
+    rgba: 4289214324
+  - serializedVersion: 2
+    rgba: 4280951225
+  - serializedVersion: 2
+    rgba: 4278506620
+  - serializedVersion: 2
+    rgba: 4285294958
+  - serializedVersion: 2
+    rgba: 4280607455
+  - serializedVersion: 2
+    rgba: 4287854553
+  boardCardController: {fileID: 9100000, guid: 672d63cdba1c2834f866150315508a4f, type: 2}

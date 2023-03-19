@@ -1,0 +1,6 @@
+{
+    "git.ignoredRepositories": [
+        "**/*.meta"
+    ],
+    "git.ignoreLegacyWarning": false
+}
