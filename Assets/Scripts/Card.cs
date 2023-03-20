@@ -73,7 +73,7 @@ public class Card : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHandler
         canvasGroup.blocksRaycasts = false;
         gameMaster.SelectedCard = this.gameObject;
 
-        gameMaster.ShowHideHand();
+        gameMaster.HideHand();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -102,6 +102,6 @@ public class Card : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHandler
 
         canvasGroup.blocksRaycasts = true;
         if(!gameMaster.isOverFrame)gameMaster.SelectedCard = null;
-        gameMaster.ShowHideHand();
+        gameMaster.ShowHand();
     }
 }

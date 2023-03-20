@@ -25,7 +25,6 @@ public class GameMaster : MonoBehaviour
     public bool handShown = true;
 
     public RectTransform handRect;
-    public RectTransform DropDownArrowRect;
 
     private void Start() {
         for (int i = 0; i < handObject.transform.childCount; i++)
@@ -34,12 +33,13 @@ public class GameMaster : MonoBehaviour
         }
     }
 
-    public void ShowHideHand(){
-        handShown = !handShown;
-        if(handShown)handRect.anchoredPositionTransition_y(155,0.2f,LeanEase.Linear);
-        else handRect.anchoredPositionTransition_y(-135,0.2f,LeanEase.Linear);
+    public void ShowHand(){
+        handShown = true;
+        handRect.anchoredPositionTransition_y(155,0.2f,LeanEase.Linear);
+    }
 
-        if(handShown) DropDownArrowRect.RotateTransition(0f,0f,180f,0.2f,LeanEase.Linear);
-        else DropDownArrowRect.RotateTransition(0f,0f,-180f,0.2f,LeanEase.Linear);
+    public void HideHand(){
+        handShown = false;
+        handRect.anchoredPositionTransition_y(-135,0.2f,LeanEase.Linear);
     }
 }

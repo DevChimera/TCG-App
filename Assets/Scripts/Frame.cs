@@ -8,8 +8,13 @@ public class Frame : MonoBehaviour,IDropHandler,IPointerEnterHandler,IPointerExi
 
     public Utils.CardType allowedType;
 
+    public Color ogColor,hoveredColor;
+
     private void Start() {
        gameMaster = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
+       ogColor = GetComponent<Image>().color;
+       float factor = 0.6f;
+       hoveredColor = new Color(ogColor.r * factor,ogColor.g * factor,ogColor.b * factor,ogColor.a);
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -49,19 +54,19 @@ public class Frame : MonoBehaviour,IDropHandler,IPointerEnterHandler,IPointerExi
             Destroy(cd.Temp);
             Destroy(gameMaster.SelectedCard);
             gameMaster.SelectedCard = null;
-            gameMaster.ShowHideHand();
+            gameMaster.ShowHand();
         }
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        GetComponent<Image>().color = new Color32(0 ,50 ,80 ,255);
+        GetComponent<Image>().color = hoveredColor;
         gameMaster.isOverFrame = true;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        GetComponent<Image>().color = new Color32(0 ,76 ,123 ,255);
+        GetComponent<Image>().color = ogColor;
         gameMaster.isOverFrame = false;
     }
 
