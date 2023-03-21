@@ -9,7 +9,7 @@ public class MainScreen : MonoBehaviour
     public Animator SwitchPanels;
 
     private void Start() {
-         Screen.orientation = ScreenOrientation.Portrait;
+        Screen.orientation = ScreenOrientation.Portrait;
     }
   
     public void Login(){

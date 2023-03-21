@@ -27,6 +27,9 @@ public class GameMaster : MonoBehaviour
     public RectTransform handRect;
 
     private void Start() {
+
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
+
         for (int i = 0; i < handObject.transform.childCount; i++)
         {
             Hand.Add(handObject.transform.GetChild(0).gameObject);
