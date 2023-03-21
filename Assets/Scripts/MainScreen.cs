@@ -7,6 +7,10 @@ public class MainScreen : MonoBehaviour
     public GameObject loginPanel,MainPanel;
 
     public Animator SwitchPanels;
+
+    private void Start() {
+         Screen.orientation = ScreenOrientation.Portrait;
+    }
   
     public void Login(){
         SwitchPanels.SetTrigger("LogIn");
