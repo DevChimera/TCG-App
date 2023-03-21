@@ -61,8 +61,8 @@ public class UIManagement : EditorWindow {
         try
         {
             foreach(GameObject g in Selection.gameObjects){
-                TextMeshProUGUI shadow = g.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-                TextMeshProUGUI txt = g.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+                TextMeshProUGUI shadow = g.transform.GetChild(1).GetComponent<TextMeshProUGUI>();
+                TextMeshProUGUI txt = g.transform.GetChild(2).GetComponent<TextMeshProUGUI>();
 
                 Undo.RecordObject(shadow, "Change Text");
                 shadow.text = g.name;
