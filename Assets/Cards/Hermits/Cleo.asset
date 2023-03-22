@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed5fc5367459314cb265bd127e1f07c, type: 3}
+  m_Name: Cleo
+  m_EditorClassIdentifier: 
+  Name: cleo
+  MaxHealth: 260
+  Health: 260
+  Description: 
+  PrimaryAttackName: it's fine
+  SecondaryAttackName: revenge
+  PrimaryAttackDamage: 60
+  SecondaryAttackDamage: 80
+  PrimaryAttackCost: 00000000
+  SecondaryAttackCost: 0000000000000000
+  Strengths: 09000000
+  Weaknesses: 0200000004000000
+  HermitType: 0
+  Rarity: 0
+  index: 25
+  PrimaryColor: {r: 1, g: 0, b: 0, a: 1}
+  SecondaryColor: {r: 1, g: 0, b: 0, a: 1}

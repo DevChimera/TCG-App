@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed5fc5367459314cb265bd127e1f07c, type: 3}
+  m_Name: Tfc_Rare
+  m_EditorClassIdentifier: 
+  Name: tfc
+  MaxHealth: 300
+  Health: 300
+  Description: 
+  PrimaryAttackName: true hermit
+  SecondaryAttackName: branch mine
+  PrimaryAttackDamage: 40
+  SecondaryAttackDamage: 80
+  PrimaryAttackCost: 0a000000
+  SecondaryAttackCost: 0700000007000000
+  Strengths: 0400000005000000
+  Weaknesses: 08000000
+  HermitType: 7
+  Rarity: 1
+  index: 19
+  PrimaryColor: {r: 1, g: 0, b: 0, a: 1}
+  SecondaryColor: {r: 0, g: 0.33333334, b: 1, a: 1}
